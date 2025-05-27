@@ -174,7 +174,7 @@ class MusicBot(commands.Bot):
 def main():
     bot = MusicBot()
     # الحصول على التوكن من المتغيرات البيئية
-    token = os.getenv('DISCORD_TOKEN')
+    token = os.getenv('MTM3NzAyNjA1MjE4MTg1MjMzNA.GPo-OO.RarKydvUYGe3I8N9UERVv3aNGLBCbae8Uo6ENU')
     if not token:
         raise ValueError("لم يتم العثور على توكن البوت! تأكد من وجود ملف .env")
     bot.run(token)
